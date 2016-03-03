@@ -1,0 +1,49 @@
+﻿
+<div class="row" ng-controller="bookDemandsController">
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+    <div class="col-md-8">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Subject</th>
+                    <th>Publish Year</th>
+                    <th>Author</th>
+                    <th>Upload Date</th>
+                    <th>Demand</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="b in books">
+                    <td>
+                        {{ b.title }}
+                    </td>
+                    <td>
+                        {{ b.subject }}
+                    </td>
+                    <td>
+                        {{ b.publishYear }}
+                    </td>
+                    <td>
+                        {{ b.author }}
+                    </td>
+                    <td>
+                        {{ b.creationTimeStamp }}
+                    </td>
+                    <td>
+                        <!--<a href="#/placedemand" >Place Demand</a>-->
+                        <form name="demandForm_{{b.id}}" role="form" >
+                            <input class="btn btn-md btn-github btn-block" type="submit" ng-click="placeBookDemand(b.id,b.title,b.publishYear, b.publishYear)" value="Place" />
+                        </form>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+</div>

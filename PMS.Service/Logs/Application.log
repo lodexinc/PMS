@@ -1,0 +1,4575 @@
+Testing logger
+Opened connection at 20-10-2015 02:48:06 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-10-2015 02:48:55 PM +05:00
+
+-- Completed in 80 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-10-2015 02:48:55 PM +05:00
+
+Testing logger
+Opened connection at 20-10-2015 03:57:27 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-10-2015 03:57:27 PM +05:00
+
+-- Completed in 42 ms with result: SqlDataReader
+
+
+
+Testing logger
+Opened connection at 21-10-2015 12:11:58 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 21-10-2015 12:11:58 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 21-10-2015 12:12:03 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:38:34 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:38:34 PM +05:00
+
+-- Completed in 353 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:38:34 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:38:46 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:38:46 PM +05:00
+
+-- Completed in 56 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:38:46 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:38:53 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:38:53 PM +05:00
+
+-- Completed in 224 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:38:54 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:38:57 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:38:57 PM +05:00
+
+-- Completed in 2 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:38:57 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:08 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:08 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:08 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:10 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:10 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:10 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:13 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:13 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:13 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:15 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:15 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:15 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:16 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:16 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:16 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:34 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:34 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:34 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:34 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:34 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:34 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:35 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:35 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:35 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:36 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:36 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:36 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:36 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:36 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:36 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:37 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:37 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:37 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:37 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:37 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:37 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:38 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:38 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:38 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:38 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:38 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:38 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:39 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:39 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:39 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:40 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:40 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:40 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:40 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:40 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:40 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:40 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:40 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:40 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:41 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:41 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:41 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:42 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:42 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:42 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:42 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:42 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:42 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:42 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:42 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:42 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:48 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:48 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:48 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:49 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:49 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:49 PM +05:00
+
+Testing logger
+Testing logger
+Testing logger
+Testing logger
+Opened connection at 20-11-2015 01:39:54 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:54 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:54 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:57 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:39:57 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:57 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:39:57 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:39:57 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:39:57 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:02 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:40:02 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:02 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:03 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:40:03 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:03 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:07 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:40:07 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:07 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:09 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:40:09 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:09 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:11 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:40:11 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:11 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:14 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:40:14 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:14 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:16 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:40:16 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:16 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:18 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:40:18 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:19 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:40:20 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:40:20 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:40:20 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:41:04 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:41:04 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:41:04 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:43:18 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:43:18 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:43:18 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:02 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:02 PM +05:00
+
+-- Completed in 89 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:02 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:05 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:05 PM +05:00
+
+-- Completed in 4 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:05 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:06 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:06 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:06 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:08 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:08 PM +05:00
+
+-- Completed in 9 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:08 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:10 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:10 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:10 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:11 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:11 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:11 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:11 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:11 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:11 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:12 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:12 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:12 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:12 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:12 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:12 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:12 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:12 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:13 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:13 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:13 PM +05:00
+
+-- Completed in 6 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:13 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:14 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:14 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:14 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:15 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:15 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:15 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:17 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:17 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:17 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:18 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:18 PM +05:00
+
+-- Completed in 5 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:18 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:18 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:18 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:18 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:19 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:19 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:19 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:19 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:19 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:19 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:20 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:20 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:20 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:20 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:20 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:20 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:21 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:21 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:21 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:24 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:24 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:24 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:25 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:25 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:25 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:54 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:54 PM +05:00
+
+-- Completed in 4 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:54 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:55 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:55 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:55 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:56 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:56 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:56 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:56 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:56 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:56 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:57 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:57 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:57 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:57 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:57 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:57 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:57 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:52:57 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:57 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:52:58 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:52:58 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:52:58 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:02 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:02 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:02 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:06 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:06 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:06 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:07 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:07 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:07 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:08 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:08 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:08 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:08 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:08 PM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:08 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:09 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:09 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:09 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:09 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:09 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:09 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:09 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:09 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:09 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:10 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:10 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:10 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:10 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:10 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:10 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:11 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:11 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:11 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:11 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:11 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:11 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:12 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:12 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:12 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:12 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:12 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:12 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:13 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:13 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:13 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:13 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:13 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:13 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:13 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:13 PM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:13 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:14 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:14 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:14 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:15 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:15 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:15 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:16 PM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 20-11-2015 01:53:16 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:16 PM +05:00
+
+Testing logger
+Opened connection at 20-11-2015 01:53:16 PM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 20-11-2015 01:53:16 PM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 20-11-2015 01:53:16 PM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:29:25 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:29:25 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:29:25 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:30:06 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:30:06 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:30:06 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:35:12 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:35:12 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:35:12 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:36:21 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:36:21 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:36:21 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:16 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:37:17 AM +05:00
+
+-- Completed in 75 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:17 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:23 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:37:23 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:24 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:25 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:37:25 AM +05:00
+
+-- Completed in 2 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:25 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:36 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:37:36 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:36 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:37 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:37:37 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:37 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:38 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:37:38 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:38 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:40 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:37:40 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:40 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:42 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:37:42 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:42 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:37:47 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:37:47 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:37:47 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:38:01 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:38:01 AM +05:00
+
+-- Completed in 6 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:38:01 AM +05:00
+
+Testing logger
+Testing logger
+Opened connection at 26-02-2016 10:38:29 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:38:29 AM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:38:29 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:38:30 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:38:30 AM +05:00
+
+-- Completed in 2 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:38:30 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:42:40 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 26-02-2016 10:42:40 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:42:40 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:42:43 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:42:43 AM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:42:43 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:45:14 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:45:14 AM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:45:14 AM +05:00
+
+Testing logger
+Opened connection at 26-02-2016 10:45:36 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 26-02-2016 10:45:36 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 26-02-2016 10:45:36 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:07:33 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:07:33 AM +05:00
+
+-- Completed in 24 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:07:33 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:10:37 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:10:37 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:10:37 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:12:59 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:12:59 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:12:59 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:14:15 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:14:15 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:14:15 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:14:49 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:14:49 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:14:49 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:15:25 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:15:25 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:15:25 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:18:16 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:18:16 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:18:16 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:21:39 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:21:39 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:21:39 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:22:43 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:22:43 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:22:43 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:23:42 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 03-03-2016 11:23:42 AM +05:00
+
+-- Completed in 299 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:23:43 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:23:46 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:23:46 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:23:46 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:24:58 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:24:58 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:24:58 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:25:33 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:25:33 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:25:33 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:26:23 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:26:23 AM +05:00
+
+-- Completed in 2 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:26:23 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:26:59 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:26:59 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:26:59 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:28:01 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:28:01 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:28:01 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:28:52 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:28:52 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:28:52 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:07 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 03-03-2016 11:29:07 AM +05:00
+
+-- Completed in 3 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:07 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:09 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:29:09 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:09 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:10 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 03-03-2016 11:29:10 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:10 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:11 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:29:11 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:11 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:21 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:29:21 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:21 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:35 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:29:35 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:35 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:29:46 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:29:46 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:29:46 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:30:01 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:30:01 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:30:01 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:30:16 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:30:16 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:30:16 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:31:56 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:31:56 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:31:56 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:32:08 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:32:08 AM +05:00
+
+-- Completed in 0 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:32:08 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:33:59 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:33:59 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:33:59 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:36:13 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:36:13 AM +05:00
+
+-- Completed in 19 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:36:13 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:39:19 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:39:19 AM +05:00
+
+-- Completed in 4 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:39:19 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:39:23 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 03-03-2016 11:39:23 AM +05:00
+
+-- Completed in 4 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:39:23 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:40:49 AM +05:00
+
+SELECT 
+    [Extent1].[Quantity] AS [Quantity], 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[MemberId] AS [MemberId], 
+    [Extent1].[PublisherId] AS [PublisherId], 
+    [Extent1].[BookId] AS [BookId], 
+    [Extent1].[DemandDate] AS [DemandDate], 
+    [Extent1].[BookName] AS [BookName], 
+    [Extent1].[PublishYear] AS [PublishYear], 
+    [Extent2].[Id] AS [Id1], 
+    [Extent2].[FirstName] AS [FirstName], 
+    [Extent2].[LastName] AS [LastName], 
+    [Extent2].[UserName] AS [UserName], 
+    [Extent2].[Password] AS [Password], 
+    [Extent2].[University] AS [University], 
+    [Extent2].[EmailAddress] AS [EmailAddress], 
+    [Extent3].[Id] AS [Id2], 
+    [Extent3].[Name] AS [Name], 
+    [Extent3].[Address] AS [Address], 
+    [Extent3].[City] AS [City], 
+    [Extent3].[PostCode] AS [PostCode], 
+    [Extent3].[Phone] AS [Phone], 
+    [Extent3].[Email] AS [Email]
+    FROM   [dbo].[BookDemands] AS [Extent1]
+    INNER JOIN [dbo].[Member] AS [Extent2] ON [Extent1].[MemberId] = [Extent2].[Id]
+    INNER JOIN [dbo].[Publisher] AS [Extent3] ON [Extent1].[PublisherId] = [Extent3].[Id]
+
+
+-- Executing at 03-03-2016 11:40:49 AM +05:00
+
+-- Completed in 4 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:40:49 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:44:03 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:44:03 AM +05:00
+
+-- Completed in 6 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:44:03 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:47:41 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:47:41 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:47:41 AM +05:00
+
+Testing logger
+Opened connection at 03-03-2016 11:48:07 AM +05:00
+
+SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[Address] AS [Address], 
+    [Extent1].[City] AS [City], 
+    [Extent1].[PostCode] AS [PostCode], 
+    [Extent1].[Phone] AS [Phone], 
+    [Extent1].[Email] AS [Email]
+    FROM [dbo].[Publisher] AS [Extent1]
+
+
+-- Executing at 03-03-2016 11:48:07 AM +05:00
+
+-- Completed in 1 ms with result: SqlDataReader
+
+
+
+Closed connection at 03-03-2016 11:48:07 AM +05:00
+

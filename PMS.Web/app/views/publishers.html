@@ -1,0 +1,50 @@
+﻿
+<div class="row" >
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+    <div class="col-md-8">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Adddess</th>
+                    <th>City</th>
+                    <th>Post Code</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Books</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-ng-repeat="p in publishers">
+                    <td>
+                        {{ p.name }}
+                    </td>
+                    <td>
+                        {{ p.address }}
+                    </td>
+                    <td>
+                        {{ p.city }}
+                    </td>
+                    <td>
+                        {{ p.postCode }}
+                    </td>
+                    <td>
+                        {{ p.phone }}
+                    </td>
+                    <td>
+                        {{ p.email }}
+                    </td>
+                    <td>
+                        <a href="#/books" class="bar">See</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-2">
+        &nbsp;
+    </div>
+</div>
